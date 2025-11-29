@@ -1,8 +1,8 @@
 # AR-Based Onion Quality Inspection & Sorting System
 
-## 🎥 Demo Video
+## 🎥 Test Video
 
-You can watch the demo here: [Demo Video](media/AR_Real_Farm_1.mp4)
+You can watch the field test video here: [Demo Video](media/AR_Real_Farm_1.mp4)
 
 This repository contains the code for an **Augmented Reality–based onion inspection system** developed at the **THINC Lab, University of Georgia**.
 
