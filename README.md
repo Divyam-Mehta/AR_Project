@@ -49,6 +49,3 @@ AR_Project/
     ├── rough.py                 # Experimental / sandbox code
     ├── bytetrack.yaml           # Tracker config (if using ByteTrack-style logic)
     ├── main.py                  # 🔥 Main runtime: detection + tracking + AR
-    └── assets/
-        ├── flowchart.png        # Pipeline flowchart (for README)
-        └── system_layout.png    # Hardware layout diagram (for README)
