@@ -3,7 +3,7 @@
 ## 🎥 Test Video
 
 <video controls width="640">
-  <source src="https://github.com/Divyam-Mehta/AR_Project/raw/main/media/AR_Real_Farm_2.mp4" type="video/mp4">
+  <source src="https://github.com/Divyam-Mehta/AR_Project/media/AR_Real_Farm_2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
