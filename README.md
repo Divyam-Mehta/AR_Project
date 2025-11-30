@@ -94,7 +94,7 @@ Use Pygame to draw:
 - Mirror/flip the Pygame surface to align with projector.
 
 Database & Sorting
-Use functions like anterior_check, posterior_check, good_or_bad, and sort() from functions.py to:
+Use functions like `anterior_check`, `posterior_check`, `good_or_bad`, and `sort()` from functions.py to:
 - Detect when an onion passes anterior/posterior lines.
 - Decide whether it’s good or bad.
 - Save onion images into GOOD_ONION_DB and BAD_ONION_DB.
