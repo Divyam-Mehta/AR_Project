@@ -57,3 +57,46 @@ AR_Project/
 
 ## 🔁 Processing Pipeline
 
+Flowchart
+
+Steps:
+
+Frame Capture
+main.py opens two webcams:
+- Anterior camera: onion entry side
+- Posterior camera: onion exit side
+
+Pre-processing
+- Rotate frames (90° clockwise).
+- Crop to conveyor area.
+- Resize to a common resolution (RESIZE_RES from vars.py).
+
+YOLO-v8 Detection
+- Run inference on the fused frame.
+- Filter detections by class and confidence.
+- Remove overlapping onions using IoU checks (iou.py).
+
+Tracking
+- Pass bounding boxes to VelocityTracker (or other tracker).
+- Maintain an objectID → centroid mapping.
+- Print/log ID, centroid, and time difference between frames.
+
+Classification & ID Association
+- Match YOLO detections to tracker IDs using centroid proximity.
+- Store final class (good/bad) in id_class[objectId].
+
+Coordinate Mapping
+- Convert camera pixel coordinates → world coordinates in mm (pixelToMM).
+- Project world coordinates → projector pixel coordinates (mmToPixelProjector).
+
+AR Projection
+Use Pygame to draw:
+- 🟢 Green circle for good onions.
+- 🔴 Red circle + white cross for blemished onions.
+- Mirror/flip the Pygame surface to align with projector.
+
+Database & Sorting
+Use functions like anterior_check, posterior_check, good_or_bad, and sort() from functions.py to:
+- Detect when an onion passes anterior/posterior lines.
+- Decide whether it’s good or bad.
+- Save onion images into GOOD_ONION_DB and BAD_ONION_DB.
