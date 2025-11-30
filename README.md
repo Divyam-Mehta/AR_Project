@@ -98,3 +98,17 @@ Use functions like anterior_check, posterior_check, good_or_bad, and sort() from
 - Detect when an onion passes anterior/posterior lines.
 - Decide whether it’s good or bad.
 - Save onion images into GOOD_ONION_DB and BAD_ONION_DB.
+
+---
+
+## 🧱 Hardware Setup & System Layout
+
+- 2 × Standard Webcams (no industrial camera required).
+- 1 × Short-Throw Projector aligned above/side of the conveyor.
+- Conveyor carrying onions in a roughly straight line under the field of view.
+
+Layout Diagram
+A typical configuration:
+- Anterior camera: mounted so that onions are visible as they enter the field.
+- Posterior camera: mounted near the exit of the projection area.
+- Projector: calibrated to overlay Pygame’s display onto physical conveyor space.
