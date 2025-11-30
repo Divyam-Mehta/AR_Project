@@ -11,7 +11,7 @@ This repository contains the code for an **Augmented Reality–based onion inspe
 The system:
 
 - Tracks onions moving on a **high-speed conveyor** using fused data from **two standard webcams**.
-- Uses a **YOLO-v8 model** to detect onions and classify them as *good* or *blemished*.
+- Uses a **YOLO-v8 model** (trained on 8000+ images) to detect onions and classify them as *good* or *blemished*.
 - Uses a **custom slope- and/or velocity-based tracker** to estimate onion motion in real time.
 - Projects **red (bad) or green (good) indicators** directly onto each onion using a **short-throw projector**, creating an AR overlay synchronized with the conveyor.
 
