@@ -104,7 +104,7 @@ Use functions like anterior_check, posterior_check, good_or_bad, and sort() from
 ## 🧱 Hardware Setup & System Layout
 
 - 2 × Standard Webcams (no industrial camera required).
-- 1 × Short-Throw Projector aligned above/side of the conveyor.
+- 1 × Short-Throw Projector aligned above the conveyor.
 - Conveyor carrying onions in a roughly straight line under the field of view.
 
 Layout Diagram
