@@ -107,8 +107,7 @@ Use functions like anterior_check, posterior_check, good_or_bad, and sort() from
 - 1 × Short-Throw Projector aligned above the conveyor.
 - Conveyor carrying onions in a roughly straight line under the field of view.
 
-Layout Diagram
-A typical configuration:
+Layout Configuration
 - Anterior camera: mounted so that onions are visible as they enter the field.
 - Posterior camera: mounted near the exit of the projection area.
 - Projector: calibrated to overlay Pygame’s display onto physical conveyor space.
