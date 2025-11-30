@@ -2,7 +2,9 @@
 
 ## 🎥 Test Video
 
-![Demo Video](media/AR_Real_Farm_1.gif)
+<p align="center">
+  <img src="media/AR_Real_Farm_1.gif" width="640" />
+</p>
 
 This repository contains the code for an **Augmented Reality–based onion inspection system** developed at the **THINC Lab, University of Georgia**.
 
