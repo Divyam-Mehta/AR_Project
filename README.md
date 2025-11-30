@@ -2,10 +2,7 @@
 
 ## 🎥 Test Video
 
-<video controls width="640">
-  <source src="https://github.com/Divyam-Mehta/AR_Project/raw/main/media/AR_Real_Farm_2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+You can watch the field test video here: [Demo Video](media/AR_Real_Farm_2.gif)
 
 This repository contains the code for an **Augmented Reality–based onion inspection system** developed at the **THINC Lab, University of Georgia**.
 
