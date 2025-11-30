@@ -57,8 +57,6 @@ AR_Project/
 
 ## 🔁 Processing Pipeline
 
-Flowchart
-
 Steps:
 
 Frame Capture
