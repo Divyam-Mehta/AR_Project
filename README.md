@@ -3,7 +3,7 @@
 ## 🎥 Test Video
 
 <p align="center">
-  <img src="media/AR_Real_Farm_1.gif" width="640" />
+  <img src="media/AR_farm.gif" width="640" />
 </p>
 
 This repository contains the code for an **Augmented Reality–based onion inspection system** developed by **Divyam Mehta** at the **THINC Lab, University of Georgia**.
