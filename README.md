@@ -6,7 +6,7 @@
   <img src="media/AR_farm.gif" width="640" />
 </p>
 
-This repository contains the code for an **Augmented Reality/Computer Vision–based onion inspection system** developed by **Divyam Mehta** at the **THINC Lab, University of Georgia**.
+This repository contains the code for an **Augmented Reality/Computer Vision–based onion inspection system** developed by **Divyam Mehta** at the **THINC Lab, University of Georgia**. The test video above was captured during a real-world deployment on an industrial onion conveyor at **Bland Farms** in **Vidalia, Georgia, USA**.
 
 The system:
 
